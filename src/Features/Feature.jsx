@@ -10,8 +10,7 @@ const Feature = (props) => {
     let {image, text} = props.feature
   return (
     <Card>
-      honey
-      pavani
+      
       <img src={image} style={{width:'100%', marginBottom:'20px'}} alt="" />
       <p style={{textAlign:'center', fontSize:'20px', fontWeight:'100', color:'#424242'}}>{text}</p>
     </Card>
